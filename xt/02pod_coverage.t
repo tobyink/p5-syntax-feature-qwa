@@ -1,4 +1,4 @@
-use Test::More;
+use Test::More skip_all => 'pod coverage does not make much sense for this module';
 use Test::Pod::Coverage;
 
 my @modules = qw(Syntax::Feature::Qwa);
