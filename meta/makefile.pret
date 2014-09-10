@@ -1,0 +1,13 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Syntax-Feature-Qwa/project>
+	deps:runtime-requirement         [ deps:on "strict"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Devel::Declare"^^deps:CpanId ];
+	deps:runtime-requirement         [
+		deps:on "Devel::Declare::Context::Simple"^^deps:CpanId;
+	];
+	deps:runtime-requirement         [ deps:on "B::Hooks::EndOfScope"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Sub::Install"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "namespace::clean"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
