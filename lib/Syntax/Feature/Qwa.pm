@@ -5,7 +5,7 @@ use strict;
 
 BEGIN {
 	$Syntax::Feature::Qwa::AUTHORITY = 'cpan:TOBYINK';
-	$Syntax::Feature::Qwa::VERSION   = '0.001';
+	$Syntax::Feature::Qwa::VERSION   = '0.002';
 }
 
 use Devel::Declare          0.006007    ();
